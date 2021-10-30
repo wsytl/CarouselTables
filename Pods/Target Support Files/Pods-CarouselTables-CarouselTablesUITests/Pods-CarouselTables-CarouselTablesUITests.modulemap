@@ -1,0 +1,6 @@
+framework module Pods_CarouselTables_CarouselTablesUITests {
+  umbrella header "Pods-CarouselTables-CarouselTablesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

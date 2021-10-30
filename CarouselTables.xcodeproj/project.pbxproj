@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F591770C8E3C3A6B8A50DA1 /* Pods_CarouselTables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE696AA2B66B83F7C9C462 /* Pods_CarouselTables.framework */; };
+		3D4311C26F7B8BFC5C8E321F /* Pods_CarouselTables_CarouselTablesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C68099B2A3ED475B0ABE34 /* Pods_CarouselTables_CarouselTablesUITests.framework */; };
+		6C529DBF272B89B800AD9F42 /* OutLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C529DBE272B89B800AD9F42 /* OutLineCell.m */; };
 		EE1B3979272A969400F2BCEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B3978272A969400F2BCEF /* AppDelegate.m */; };
 		EE1B397C272A969400F2BCEF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B397B272A969400F2BCEF /* SceneDelegate.m */; };
-		EE1B397F272A969400F2BCEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B397E272A969400F2BCEF /* ViewController.m */; };
 		EE1B3982272A969400F2BCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1B3980272A969400F2BCEF /* Main.storyboard */; };
 		EE1B3984272A969800F2BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1B3983272A969800F2BCEF /* Assets.xcassets */; };
 		EE1B3987272A969800F2BCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1B3985272A969800F2BCEF /* LaunchScreen.storyboard */; };
@@ -17,6 +19,12 @@
 		EE1B3994272A969900F2BCEF /* CarouselTablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B3993272A969900F2BCEF /* CarouselTablesTests.m */; };
 		EE1B399E272A969900F2BCEF /* CarouselTablesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B399D272A969900F2BCEF /* CarouselTablesUITests.m */; };
 		EE1B39A0272A969900F2BCEF /* CarouselTablesUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B399F272A969900F2BCEF /* CarouselTablesUITestsLaunchTests.m */; };
+		EE1B39B5272A985000F2BCEF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B39B3272A985000F2BCEF /* SecondViewController.m */; };
+		EE1B39BA272A9AFB00F2BCEF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B39B8272A9AFB00F2BCEF /* FirstViewController.m */; };
+		EE1B39BB272A9AFB00F2BCEF /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1B39B9272A9AFB00F2BCEF /* FirstViewController.xib */; };
+		EE1B39BE272AA48C00F2BCEF /* OutlineScrollVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B39BD272AA48C00F2BCEF /* OutlineScrollVIew.m */; };
+		EE5A1EB1272BEE81000A9952 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A1EB0272BEE81000A9952 /* ThirdViewController.m */; };
+		FC18D7C6E0B80107E9D055D0 /* Pods_CarouselTablesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACAA5E53B67DDF635EE9FC1 /* Pods_CarouselTablesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C68099B2A3ED475B0ABE34 /* Pods_CarouselTables_CarouselTablesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselTables_CarouselTablesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2AFF97FC97D88A836C8F47 /* Pods-CarouselTables-CarouselTablesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTables-CarouselTablesUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarouselTables-CarouselTablesUITests/Pods-CarouselTables-CarouselTablesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E63FC02653B30BA07B29770 /* Pods-CarouselTablesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTablesTests.release.xcconfig"; path = "Target Support Files/Pods-CarouselTablesTests/Pods-CarouselTablesTests.release.xcconfig"; sourceTree = "<group>"; };
+		50FE696AA2B66B83F7C9C462 /* Pods_CarouselTables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselTables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F73F9B65632427FD07B9D1 /* Pods-CarouselTables-CarouselTablesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTables-CarouselTablesUITests.release.xcconfig"; path = "Target Support Files/Pods-CarouselTables-CarouselTablesUITests/Pods-CarouselTables-CarouselTablesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C529DBD272B89B800AD9F42 /* OutLineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutLineCell.h; sourceTree = "<group>"; };
+		6C529DBE272B89B800AD9F42 /* OutLineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutLineCell.m; sourceTree = "<group>"; };
+		8EDF6FAC791F4B9504BEAA76 /* Pods-CarouselTablesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTablesTests.debug.xcconfig"; path = "Target Support Files/Pods-CarouselTablesTests/Pods-CarouselTablesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACAA5E53B67DDF635EE9FC1 /* Pods_CarouselTablesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselTablesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758FEC6DCFCB99580355690 /* Pods-CarouselTables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTables.release.xcconfig"; path = "Target Support Files/Pods-CarouselTables/Pods-CarouselTables.release.xcconfig"; sourceTree = "<group>"; };
+		EAA89FACE019ABCD34B9AF9E /* Pods-CarouselTables.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselTables.debug.xcconfig"; path = "Target Support Files/Pods-CarouselTables/Pods-CarouselTables.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1B3974272A969400F2BCEF /* CarouselTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1B3977272A969400F2BCEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE1B3978272A969400F2BCEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE1B397A272A969400F2BCEF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		EE1B397B272A969400F2BCEF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EE1B397D272A969400F2BCEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE1B397E272A969400F2BCEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE1B3981272A969400F2BCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE1B3983272A969800F2BCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1B3986272A969800F2BCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +71,15 @@
 		EE1B3999272A969900F2BCEF /* CarouselTablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1B399D272A969900F2BCEF /* CarouselTablesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselTablesUITests.m; sourceTree = "<group>"; };
 		EE1B399F272A969900F2BCEF /* CarouselTablesUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselTablesUITestsLaunchTests.m; sourceTree = "<group>"; };
+		EE1B39B2272A985000F2BCEF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE1B39B3272A985000F2BCEF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EE1B39B7272A9AFB00F2BCEF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EE1B39B8272A9AFB00F2BCEF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EE1B39B9272A9AFB00F2BCEF /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		EE1B39BC272AA48C00F2BCEF /* OutlineScrollVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutlineScrollVIew.h; sourceTree = "<group>"; };
+		EE1B39BD272AA48C00F2BCEF /* OutlineScrollVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlineScrollVIew.m; sourceTree = "<group>"; };
+		EE5A1EAF272BEE81000A9952 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		EE5A1EB0272BEE81000A9952 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F591770C8E3C3A6B8A50DA1 /* Pods_CarouselTables.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC18D7C6E0B80107E9D055D0 /* Pods_CarouselTablesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +103,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4311C26F7B8BFC5C8E321F /* Pods_CarouselTables_CarouselTablesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EC978A84B264B8CBA76C985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAA89FACE019ABCD34B9AF9E /* Pods-CarouselTables.debug.xcconfig */,
+				E758FEC6DCFCB99580355690 /* Pods-CarouselTables.release.xcconfig */,
+				2B2AFF97FC97D88A836C8F47 /* Pods-CarouselTables-CarouselTablesUITests.debug.xcconfig */,
+				64F73F9B65632427FD07B9D1 /* Pods-CarouselTables-CarouselTablesUITests.release.xcconfig */,
+				8EDF6FAC791F4B9504BEAA76 /* Pods-CarouselTablesTests.debug.xcconfig */,
+				3E63FC02653B30BA07B29770 /* Pods-CarouselTablesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54DD22CEA83862F96EE7D3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50FE696AA2B66B83F7C9C462 /* Pods_CarouselTables.framework */,
+				12C68099B2A3ED475B0ABE34 /* Pods_CarouselTables_CarouselTablesUITests.framework */,
+				BACAA5E53B67DDF635EE9FC1 /* Pods_CarouselTablesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE1B396B272A969400F2BCEF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +140,8 @@
 				EE1B3992272A969900F2BCEF /* CarouselTablesTests */,
 				EE1B399C272A969900F2BCEF /* CarouselTablesUITests */,
 				EE1B3975272A969400F2BCEF /* Products */,
+				4EC978A84B264B8CBA76C985 /* Pods */,
+				54DD22CEA83862F96EE7D3BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +162,17 @@
 				EE1B3978272A969400F2BCEF /* AppDelegate.m */,
 				EE1B397A272A969400F2BCEF /* SceneDelegate.h */,
 				EE1B397B272A969400F2BCEF /* SceneDelegate.m */,
-				EE1B397D272A969400F2BCEF /* ViewController.h */,
-				EE1B397E272A969400F2BCEF /* ViewController.m */,
+				EE1B39B7272A9AFB00F2BCEF /* FirstViewController.h */,
+				EE1B39B8272A9AFB00F2BCEF /* FirstViewController.m */,
+				EE1B39B9272A9AFB00F2BCEF /* FirstViewController.xib */,
+				EE1B39B2272A985000F2BCEF /* SecondViewController.h */,
+				EE1B39B3272A985000F2BCEF /* SecondViewController.m */,
+				EE1B39BC272AA48C00F2BCEF /* OutlineScrollVIew.h */,
+				EE1B39BD272AA48C00F2BCEF /* OutlineScrollVIew.m */,
+				6C529DBD272B89B800AD9F42 /* OutLineCell.h */,
+				6C529DBE272B89B800AD9F42 /* OutLineCell.m */,
+				EE5A1EAF272BEE81000A9952 /* ThirdViewController.h */,
+				EE5A1EB0272BEE81000A9952 /* ThirdViewController.m */,
 				EE1B3980272A969400F2BCEF /* Main.storyboard */,
 				EE1B3983272A969800F2BCEF /* Assets.xcassets */,
 				EE1B3985272A969800F2BCEF /* LaunchScreen.storyboard */,
@@ -143,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE1B39A3272A969900F2BCEF /* Build configuration list for PBXNativeTarget "CarouselTables" */;
 			buildPhases = (
+				3CAB78D8E658557581750448 /* [CP] Check Pods Manifest.lock */,
 				EE1B3970272A969400F2BCEF /* Sources */,
 				EE1B3971272A969400F2BCEF /* Frameworks */,
 				EE1B3972272A969400F2BCEF /* Resources */,
+				9E1365DB4D96B3C0E0E03C08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE1B39A6272A969900F2BCEF /* Build configuration list for PBXNativeTarget "CarouselTablesTests" */;
 			buildPhases = (
+				6102F5670F578E05CAD4CF11 /* [CP] Check Pods Manifest.lock */,
 				EE1B398B272A969900F2BCEF /* Sources */,
 				EE1B398C272A969900F2BCEF /* Frameworks */,
 				EE1B398D272A969900F2BCEF /* Resources */,
@@ -178,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE1B39A9272A969900F2BCEF /* Build configuration list for PBXNativeTarget "CarouselTablesUITests" */;
 			buildPhases = (
+				ABE2EDB87E96CE21312388A4 /* [CP] Check Pods Manifest.lock */,
 				EE1B3995272A969900F2BCEF /* Sources */,
 				EE1B3996272A969900F2BCEF /* Frameworks */,
 				EE1B3997272A969900F2BCEF /* Resources */,
+				46785BCED3D49DA75934C060 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1B39BB272A9AFB00F2BCEF /* FirstViewController.xib in Resources */,
 				EE1B3987272A969800F2BCEF /* LaunchScreen.storyboard in Resources */,
 				EE1B3984272A969800F2BCEF /* Assets.xcassets in Resources */,
 				EE1B3982272A969400F2BCEF /* Main.storyboard in Resources */,
@@ -261,14 +330,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CAB78D8E658557581750448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselTables-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46785BCED3D49DA75934C060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselTables-CarouselTablesUITests/Pods-CarouselTables-CarouselTablesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselTables-CarouselTablesUITests/Pods-CarouselTables-CarouselTablesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarouselTables-CarouselTablesUITests/Pods-CarouselTables-CarouselTablesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6102F5670F578E05CAD4CF11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselTablesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1365DB4D96B3C0E0E03C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselTables/Pods-CarouselTables-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselTables/Pods-CarouselTables-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarouselTables/Pods-CarouselTables-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE2EDB87E96CE21312388A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselTables-CarouselTablesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE1B3970272A969400F2BCEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1B397F272A969400F2BCEF /* ViewController.m in Sources */,
+				EE1B39B5272A985000F2BCEF /* SecondViewController.m in Sources */,
 				EE1B3979272A969400F2BCEF /* AppDelegate.m in Sources */,
+				EE5A1EB1272BEE81000A9952 /* ThirdViewController.m in Sources */,
+				EE1B39BA272A9AFB00F2BCEF /* FirstViewController.m in Sources */,
 				EE1B398A272A969800F2BCEF /* main.m in Sources */,
+				6C529DBF272B89B800AD9F42 /* OutLineCell.m in Sources */,
+				EE1B39BE272AA48C00F2BCEF /* OutlineScrollVIew.m in Sources */,
 				EE1B397C272A969400F2BCEF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +615,7 @@
 		};
 		EE1B39A4272A969900F2BCEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA89FACE019ABCD34B9AF9E /* Pods-CarouselTables.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +643,7 @@
 		};
 		EE1B39A5272A969900F2BCEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E758FEC6DCFCB99580355690 /* Pods-CarouselTables.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +671,7 @@
 		};
 		EE1B39A7272A969900F2BCEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDF6FAC791F4B9504BEAA76 /* Pods-CarouselTablesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +695,7 @@
 		};
 		EE1B39A8272A969900F2BCEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E63FC02653B30BA07B29770 /* Pods-CarouselTablesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +719,7 @@
 		};
 		EE1B39AA272A969900F2BCEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2AFF97FC97D88A836C8F47 /* Pods-CarouselTables-CarouselTablesUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -560,6 +741,7 @@
 		};
 		EE1B39AB272A969900F2BCEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F73F9B65632427FD07B9D1 /* Pods-CarouselTables-CarouselTablesUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
